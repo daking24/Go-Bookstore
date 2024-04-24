@@ -46,14 +46,18 @@ go run cmd/main/main.go
   "publication": "Publisher Name"
 }
 ```
-**Get a list of Books**
+
 * Endpoint: `GET /book/`
-**Get a Book by ID**
+**Get a list of Books**
+
 * Endpoint: `GET /book/{bookId}`
-**Update a Book by ID**
+**Get a Book by ID**
+
 * Endpoint: `PUT /book/{bookId}`
-**Delete a Book by ID**
+**Update a Book by ID**
+
 * Endpoint: `DELETE /book/{bookId}`
+**Delete a Book by ID**
 
 ## Contributing
 Feel free to submit a pull request or open an issue to contribute to the project. Make sure to include a detailed description of the changes and any relevant context.
